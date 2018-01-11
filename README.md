@@ -1,5 +1,5 @@
 # VirusTotal auto checker.
-check if the file hash exists on Virustotal and notify the sysadmin via mail. (thinked to by runned in a crontab.)
+This python script check if a file hash exists on Virustotal and notify the sysadmin via email. (thinked to be run in a crontab.)
 
 # Credits
 Inspired by https://github.com/xakepnz/COBALTBREW
@@ -28,6 +28,10 @@ $ pip install -r requirements.txt
 
 ```
 $ chmod +x checkvirustotal.py
+```
+
+```
+Edit checkvirustotal.py and add your virustotal API key and email.
 ```
 
 ```
